@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+
+    <header>
+        <h1>Layout Sederhana</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="about.html" class="active">About</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <section id="hero">
+        <h1>Tentang Kami</h1>
+        <p>Website sederhana ini dibuat untuk latihan pembuatan layout menggunakan HTML dan CSS.</p>
+    </section>
+
+    <section id="wrapper">
+        <section id="main">
+            <article class="entry">
+                <h2>Deskripsi Singkat</h2>
+                <p>
+                    Kami adalah tim pengembang web pemula yang fokus mempelajari dasar-dasar desain 
+                    web modern menggunakan HTML5, CSS3, dan konsep layout responsif.
+                </p>
+                <p>
+                    Tujuan kami adalah memahami struktur layout web yang baik agar bisa diterapkan
+                    di proyek-proyek yang lebih kompleks.
+                </p>
+            </article>
+
+            <hr class="divider">
+
+            <article class="entry">
+                <h2>Portfolio Kami</h2>
+                <div class="row">
+                    <div class="box">
+                        <img src="https://dummyimage.com/150/1f5faa/fff.png" class="image-circle" alt="">
+                        <h3>Project A</h3>
+                        <p>Website Company Profile</p>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/150/db7d25/fff.png" class="image-circle" alt="">
+                        <h3>Project B</h3>
+                        <p>Aplikasi Web E-Commerce</p>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/150/3e73e6/fff.png" class="image-circle" alt="">
+                        <h3>Project C</h3>
+                        <p>Website Informasi Kampus</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <aside id="sidebar">
+            <div class="widget-box">
+                <h3 class="title">Tentang Penulis</h3>
+                <p>
+                    Mahasiswa Teknik Informatika yang sedang belajar pengembangan web dengan HTML, CSS, dan JavaScript.
+                </p>
+            </div>
+        </aside>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+    </footer>
+
+</div>
+</body>
+</html>

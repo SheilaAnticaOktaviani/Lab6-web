@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+
+    <header>
+        <h1>Layout Sederhana</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="about.html">About</a>
+        <a href="kontak.html" class="active">Kontak</a>
+    </nav>
+
+    <section id="hero">
+        <h1>Hubungi Kami</h1>
+        <p>Silakan isi form di bawah ini untuk mengirimkan pesan atau pertanyaan Anda.</p>
+    </section>
+
+    <section id="wrapper">
+        <section id="main">
+            <article class="entry">
+                <h2>Formulir Kontak</h2>
+                <form action="#" method="post" class="contact-form">
+                    <label for="nama">Nama:</label><br>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required><br><br>
+
+                    <label for="pesan">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan" rows="6" placeholder="Tulis pesan Anda..." required></textarea><br><br>
+
+                    <button type="submit" class="btn">Kirim Pesan</button>
+                </form>
+            </article>
+        </section>
+
+        <aside id="sidebar">
+            <div class="widget-box">
+                <h3 class="title">Informasi Kontak</h3>
+                <p>
+                    Email: info@universitaspb.ac.id<br>
+                    Telepon: (021) 1234567<br>
+                    Alamat: Jl. Pelita Bangsa No. 1, Bekasi
+                </p>
+            </div>
+        </aside>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+    </footer>
+
+</div>
+</body>
+</html>
