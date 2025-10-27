@@ -188,7 +188,6 @@
 # OUTPUT HOME HTML
 ![WhatsApp Image 2025-10-27 at 20 24 23_f98ea262](https://github.com/user-attachments/assets/d3bca2de-2a44-4df3-bbf5-97611e1ab896)
 ![WhatsApp Image 2025-10-27 at 20 24 39_4b695b4d](https://github.com/user-attachments/assets/5387a2b0-a176-49fb-98fe-ee7c5d7c091d)
-# <img width="959" height="481" alt="image" src="https://github.com/user-attachments/assets/c05a3642-0e9d-43e9-8a57-c705be40e306" />
 
 
 # INPUT ABOUT HTML
@@ -277,6 +276,7 @@
 
 # OUTPUT ABOUT HTML
 <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/a309ff32-388c-49c8-8770-0e7a2b45d05e" />
+<img width="485" height="72" alt="image" src="https://github.com/user-attachments/assets/f7290b6c-a495-491a-95b1-0f73ad7c4ef4" />
 
 # INPUT KONTAK HTML
 <!DOCTYPE html>
